@@ -32,6 +32,6 @@ dataprop1!.value = function (...args: any[]){
 }
 Object.defineProperty(People.prototype,"doEat",dataprop1!)
 let p = new People("peter",23,"发货的")
-p.doEat("张三","杨万宝")
+p.doEat("王武","杨万宝")
 
 export{}
